@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,document_id+source+page+section+title,none,paraphrase-multilingual-MiniLM-L12-v2 (384d local),Baseline: cắt cố định có thể cắt ngang câu evidence,5/15,10/15,2/5,3/5,464 chunk; ingest 25.09s; chi phí 0; trượt do cắt evidence: q01 q05
+B,by_paragraph,500 (max),0,document_id+source+page+section+title,none,paraphrase-multilingual-MiniLM-L12-v2 (384d local),Cắt theo đoạn/câu giữ trọn ý nên chunk mạch lạc hơn A,5/15,9/15,3/5,4/5,489 chunk; ingest 27.76s; chi phí 0; trượt do tách tiêu đề khỏi nội dung: q05 q10
+C,by_paragraph,500 (max),0,document_id+source+page+section+title,section (chỉ khi câu hỏi có filter),paraphrase-multilingual-MiniLM-L12-v2 (384d local),Lọc theo chương loại nhiễu từ chương khác ở các câu có filter,5/15,9/15,3/5,4/5,Dùng chung chunk của B; filter tuân thủ dev 3/3 test 1/1; không tăng Hit so với B

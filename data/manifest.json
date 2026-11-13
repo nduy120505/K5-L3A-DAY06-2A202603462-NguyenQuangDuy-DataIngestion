@@ -1,0 +1,20 @@
+{
+  "page_counting_rule": "Chỉ tính các trang vật lý của PDF nằm trong 'sections' và có >= 200 ký tự sau chuẩn hóa. Không tính bìa, mục lục, lời nói đầu, Key Terms, bài tập cuối chương, References và các chương khác. 'pages' là [trang đầu, trang cuối] theo số trang vật lý (trang 1 = trang đầu tiên của file), không phải số in trên trang sách.",
+  "documents": [
+    {
+      "source_id": "openstax-data-science",
+      "title": "Principles of Data Science (OpenStax)",
+      "file": "Book2.pdf",
+      "source_path_or_url": "https://openstax.org/details/books/principles-data-science",
+      "license_or_permission": "CC BY-NC-SA 4.0 (ghi ở trang 4 của PDF: ©2025 Rice University). Access for free at openstax.org.",
+      "accessed_at": "2026-11-13",
+      "snapshot": "PDF tạo ngày 2026-04-20, 569 trang vật lý",
+      "sections": [
+        {"section": "chapter_2_collecting_preparing_data", "pages": [67, 103],
+         "note": "Chapter 2 Collecting and Preparing Data, mục 2.1-2.5 (hết trước Key Terms)"},
+        {"section": "chapter_8_ethics", "pages": [387, 412],
+         "note": "Chapter 8 Ethics Throughout the Data Science Cycle, mục 8.1-8.3 (hết trước Key Terms)"}
+      ]
+    }
+  ]
+}

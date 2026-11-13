@@ -1,0 +1,218 @@
+[
+  {
+    "id": "q01",
+    "type": "metadata_filter",
+    "split": "dev",
+    "question": "What does data collection refer to?",
+    "expected_answer": "A systematic and well-organized process of gathering and accurately conveying important information about a specific phenomenon or event.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 68,
+    "evidence_quote": "Data collection refers to the systematic and well-organized process of gathering and accurately conveying important information",
+    "filter": {
+      "section": "chapter_2_collecting_preparing_data"
+    },
+    "filter_context": "Input giả định có trước khi truy xuất: người dùng đang đọc và hỏi trong phạm vi chương này."
+  },
+  {
+    "id": "q02",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "How is transactional data collected?",
+    "expected_answer": "By directly recording transactions that occur in a particular setting, such as a retail store or an online platform.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 69,
+    "evidence_quote": "Transactional data is collected by directly recording transactions that occur in a particular setting"
+  },
+  {
+    "id": "q03",
+    "type": "dieu_kien_ngoai_le",
+    "split": "dev",
+    "question": "In the plant growth experiment, how many hours of sunlight per day did each of the two groups of plants receive?",
+    "expected_answer": "One group received eight hours per day and the other only four hours.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 71,
+    "evidence_quote": "one group received eight hours of sunlight per day, while the other only received four hours"
+  },
+  {
+    "id": "q04",
+    "type": "dien_dat_lai",
+    "split": "dev",
+    "question": "Which historical election poll gave a wrong forecast because its mailing list came from telephone and car owners?",
+    "expected_answer": "The 1936 Literary Digest poll.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 72,
+    "evidence_quote": "One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll"
+  },
+  {
+    "id": "q05",
+    "type": "dien_dat_lai",
+    "split": "dev",
+    "question": "What is the name of the sampling technique that splits the population into subgroups and then randomly picks participants from each subgroup?",
+    "expected_answer": "Stratified sampling.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 76,
+    "evidence_quote": "The sampling technique used by Mark is called stratified sampling. This involves dividing the population into subgroups or strata"
+  },
+  {
+    "id": "q06",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What is web scraping?",
+    "expected_answer": "Pulling information and data from websites using a web data extraction tool (a web scraper).",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 76,
+    "evidence_quote": "Web scraping involves pulling information and data from websites using a web data extraction tool"
+  },
+  {
+    "id": "q07",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What does data integration mean in data cleaning and preprocessing?",
+    "expected_answer": "Merging data from multiple sources into a single dataset.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 86,
+    "evidence_quote": "Data integration refers to merging data from multiple sources into a single dataset"
+  },
+  {
+    "id": "q08",
+    "type": "dieu_kien_ngoai_le",
+    "split": "dev",
+    "question": "Which type of missing data is not related to any other variables and has no underlying cause for its absence?",
+    "expected_answer": "MCAR (missing completely at random).",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 87,
+    "evidence_quote": "MCAR (missing completely at random) data is missing data not related to any other variables"
+  },
+  {
+    "id": "q09",
+    "type": "metadata_filter",
+    "split": "dev",
+    "question": "How can outliers be identified?",
+    "expected_answer": "Through visualization techniques such as scatterplots, box plots, IQR or histograms, or through statistical methods.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 87,
+    "evidence_quote": "This can be done through visualization techniques, such as scatterplots, box plots, IQR (interquartile range), or histograms",
+    "filter": {
+      "section": "chapter_2_collecting_preparing_data"
+    },
+    "filter_context": "Input giả định có trước khi truy xuất: người dùng đang đọc và hỏi trong phạm vi chương này."
+  },
+  {
+    "id": "q10",
+    "type": "dien_dat_lai",
+    "split": "dev",
+    "question": "Which kind of database is built for unstructured data like social media content or sensor data?",
+    "expected_answer": "NoSQL databases.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 99,
+    "evidence_quote": "NoSQL databases. These databases are designed to handle unstructured data, such as social media content or data from sensors"
+  },
+  {
+    "id": "q11",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What is pseudonymization?",
+    "expected_answer": "Replacing sensitive information in a dataset with artificial identifiers or codes while keeping it useful for analysis.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 390,
+    "evidence_quote": "Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes"
+  },
+  {
+    "id": "q12",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "What are cookies?",
+    "expected_answer": "Small data files deposited on users' hard disks from websites they visit.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 392,
+    "evidence_quote": "Cookies are small data files that are deposited on users’ hard disks from websites they visit"
+  },
+  {
+    "id": "q13",
+    "type": "metadata_filter",
+    "split": "dev",
+    "question": "How can an outlier affect an algorithm?",
+    "expected_answer": "It might cause the algorithm to drastically change its outcomes because it is abnormal compared to the rest of the data.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 400,
+    "evidence_quote": "An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data",
+    "filter": {
+      "section": "chapter_8_ethics"
+    },
+    "filter_context": "Input giả định có trước khi truy xuất: người dùng đang đọc và hỏi trong phạm vi chương này."
+  },
+  {
+    "id": "q14",
+    "type": "dien_dat_lai",
+    "split": "dev",
+    "question": "What goes wrong when the data used to train an algorithm does not include enough examples of a particular group?",
+    "expected_answer": "The algorithm will not be qualified to properly serve that group.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 400,
+    "evidence_quote": "If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group"
+  },
+  {
+    "id": "q15",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "When reporting findings, what should a data scientist do with third-party data sources?",
+    "expected_answer": "Acknowledge all third-party data sources appropriately.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 405,
+    "evidence_quote": "Acknowledge all third-party data sources appropriately"
+  },
+  {
+    "id": "q16",
+    "type": "dien_dat_lai",
+    "split": "test",
+    "question": "Which sampling method is typically used when a population is difficult to access?",
+    "expected_answer": "Snowball sampling.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 74,
+    "evidence_quote": "Snowball sampling is typically used in situations where it is difficult to access a particular population"
+  },
+  {
+    "id": "q17",
+    "type": "truc_tiep",
+    "split": "test",
+    "question": "What are the main causes of noisy data?",
+    "expected_answer": "Human errors in data entry, technical errors in data collection or transmission, or natural variability in the data itself.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 93,
+    "evidence_quote": "Most noisy data is caused by human errors in data entry, technical errors in data collection or transmission, or natural variability in the data itself"
+  },
+  {
+    "id": "q18",
+    "type": "truc_tiep",
+    "split": "test",
+    "question": "For how long does copyright protect original creative works in the United States?",
+    "expected_answer": "For the life of the creator plus 70 years.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 394,
+    "evidence_quote": "copyright protects original creative works for the life of the creator plus 70 years"
+  },
+  {
+    "id": "q19",
+    "type": "dieu_kien_ngoai_le",
+    "split": "test",
+    "question": "After a data breach, for which kinds of breaches is notifying the authorities especially important?",
+    "expected_answer": "Breaches involving personally identifiable information (PII) or sensitive data.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 396,
+    "evidence_quote": "This is especially important for breaches involving personally identifiable information (PII) or sensitive data"
+  },
+  {
+    "id": "q20",
+    "type": "metadata_filter",
+    "split": "test",
+    "question": "What is data validation?",
+    "expected_answer": "The process of checking, verifying, and validating the accuracy and reliability of data before it is used in decision-making.",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 403,
+    "evidence_quote": "is the process of checking, verifying, and validating the accuracy and reliability of data before it is used in decision-making",
+    "filter": {
+      "section": "chapter_8_ethics"
+    },
+    "filter_context": "Input giả định có trước khi truy xuất: người dùng đang đọc và hỏi trong phạm vi chương này."
+  }
+]

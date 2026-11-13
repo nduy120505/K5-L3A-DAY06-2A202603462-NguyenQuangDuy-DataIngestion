@@ -1,0 +1,47 @@
+{
+  "run_at": "2026-11-13T17:54:25",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimensions": 384,
+  "vector_store": "chroma PersistentClient, HNSW cosine",
+  "cost_usd": 0,
+  "strategies": {
+    "A": {
+      "collection": "day06_fixed",
+      "chunking": "fixed_size",
+      "size": 500,
+      "overlap": 50,
+      "use_filter": false,
+      "written": 464,
+      "deleted_obsolete": 0,
+      "count_after": 464,
+      "chunk_count": 464,
+      "total_chars": 217568,
+      "len_min": 57,
+      "len_median": 500.0,
+      "len_max": 500,
+      "ingest_seconds": 25.09
+    },
+    "B": {
+      "collection": "day06_paragraph",
+      "chunking": "by_paragraph",
+      "max_size": 500,
+      "use_filter": false,
+      "written": 489,
+      "deleted_obsolete": 0,
+      "count_after": 489,
+      "chunk_count": 489,
+      "total_chars": 197203,
+      "len_min": 40,
+      "len_median": 425,
+      "len_max": 500,
+      "ingest_seconds": 27.76
+    },
+    "C": {
+      "collection": "day06_paragraph",
+      "chunking": "by_paragraph",
+      "max_size": 500,
+      "use_filter": true,
+      "note": "dùng chung collection và chunk của B"
+    }
+  }
+}

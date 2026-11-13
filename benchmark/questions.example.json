@@ -1,0 +1,23 @@
+[
+  {
+    "id": "q01",
+    "type": "truc_tiep",
+    "split": "dev",
+    "question": "VÍ DỤ ĐỊNH DẠNG: câu hỏi không có filter",
+    "expected_answer": "Đáp án ngắn",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 68,
+    "evidence_quote": "Chép nguyên văn một câu ngắn từ đúng trang 68 của PDF."
+  },
+  {
+    "id": "q02",
+    "type": "metadata_filter",
+    "split": "test",
+    "question": "VÍ DỤ ĐỊNH DẠNG: câu hỏi có filter (người dùng nói rõ đang hỏi về chương 8)",
+    "expected_answer": "Đáp án ngắn",
+    "gold_source_id": "openstax-data-science",
+    "gold_page": 390,
+    "evidence_quote": "Chép nguyên văn một câu ngắn từ đúng trang 390 của PDF.",
+    "filter": {"section": "chapter_8_ethics"}
+  }
+]

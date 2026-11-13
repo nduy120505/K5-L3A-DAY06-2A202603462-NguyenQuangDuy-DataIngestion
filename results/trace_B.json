@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What does data collection refer to?",
+    "expected_answer": "A systematic and well-organized process of gathering and accurately conveying important information about a specific phenomenon or event.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 68,
+        "evidence_quote": "Data collection refers to the systematic and well-organized process of gathering and accurately conveying important information"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0068-par-001",
+        "text": "Data collection refers to the systematic and well-organized process of gathering and accurately conveying important information and aspects related to a specific phenomenon or event. This involves using statistical tools and techniques to collect data, identify its attributes, and capture relevant contextual information. The gathered data is crucial for making sound interpretations and gaining meaningful insights.",
+        "score": 0.8591,
+        "metadata": {
+          "source": "Book2.pdf",
+          "section": "chapter_2_collecting_preparing_data",
+          "title": "Principles of Data Science (OpenStax)",
+          "page": 68,
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0388-par-001",
+        "text": "Data collection is an essential practice in many fields, and those performing the data collection are responsible for adhering to the highest ethical standards so that the best interest of every any party affected by the project is maintained. These standards include respecting individuals’ privacy, accurately representing data, and disclosing collection intentions.",
+        "score": 0.7001,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_8_ethics",
+          "page": 388,
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0068-par-003",
+        "text": "Some common methods for data collection include experiments, surveys, observation, focus groups, interviews, and document analysis. This chapter will focus on the use of surveys and experiments to collect data. Social scientists, marketing specialists, and political analysts regularly use surveys to gather data on topics such as public opinion, customer satisfaction, and demographic information.",
+        "score": 0.6452,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "page": 68,
+          "section": "chapter_2_collecting_preparing_data",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "How is transactional data collected?",
+    "expected_answer": "By directly recording transactions that occur in a particular setting, such as a retail store or an online platform.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 69,
+        "evidence_quote": "Transactional data is collected by directly recording transactions that occur in a particular setting"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0068-par-007",
+        "text": "Transactional data refers to any type of information related to transactions or interactions between individuals, businesses, or systems, and it is more often used in quantitative research. Many fields of study use observational data for their research. Table 2.1 summarizes some examples of fields that rely on observational data, the type of data they collect, and the purpose of their data collection.",
+        "score": 0.7325,
+        "metadata": {
+          "section": "chapter_2_collecting_preparing_data",
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "page": 68,
+          "title": "Principles of Data Science (OpenStax)"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0069-par-003",
+        "text": "For example, the health care industry may focus on transactional data related to patient interactions with health care providers and facilities, such as appointments, treatments, and medications prescribed. The retail industry may use transactional data on customer purchases and product returns, while the transportation industry may analyze data related to ticket sales and passenger traffic.",
+        "score": 0.5833,
+        "metadata": {
+          "page": 69,
+          "document_id": "openstax-data-science",
+          "section": "chapter_2_collecting_preparing_data",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0070-par-004",
+        "text": "What strategies could be used to analyze the data? Solution a. Explore the stored information as transactional data b. Collecting transactional data for analysis can be achieved by utilizing various sources within the hospital setting. These sources include: 1. Electronic Health Records (EHRs): Samantha can gather data from the hospital's electronic health records system. This data may include patients' appointment schedules, visit durations, and wait times.",
+        "score": 0.5755,
+        "metadata": {
+          "source": "Book2.pdf",
+          "section": "chapter_2_collecting_preparing_data",
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "page": 70
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "In the plant growth experiment, how many hours of sunlight per day did each of the two groups of plants receive?",
+    "expected_answer": "One group received eight hours per day and the other only four hours.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 71,
+        "evidence_quote": "one group received eight hours of sunlight per day, while the other only received four hours"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0071-par-002",
+        "text": "The main research objective was to determine the growth rate of plants exposed to eight hours of sunlight compared to those with only four hours. A total of 20 identical potted plants were used, with one group allocated to the \"sunlight\" condition and the other to the \"limited sunlight\" condition. Both groups were maintained under identical environmental conditions, including temperature, humidity, and soil moisture. Adequate watering was provided to ensure equal hydration of all plants.",
+        "score": 0.8409,
+        "metadata": {
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "section": "chapter_2_collecting_preparing_data",
+          "page": 71,
+          "title": "Principles of Data Science (OpenStax)"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0071-par-001",
+        "text": "Consider this example: Scientist Sally aimed to investigate the impact of sunlight on plant growth. The research inquiry was to determine whether increased exposure to sunlight enhances the growth of plants. Sally experimented with two groups of plants wherein one group received eight hours of sunlight per day, while the other only received four hours. The height of each plant was measured and documented every week for four consecutive weeks.",
+        "score": 0.7299,
+        "metadata": {
+          "page": 71,
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data",
+          "document_id": "openstax-data-science",
+          "source": "Book2.pdf"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0071-par-003",
+        "text": "The measurements of plant height were obtained and accurately recorded every week. This approach allowed for the collection of precise and reliable data on the impact of sunlight on plant growth, which can serve as a valuable resource for further research and understanding of this relationship. 2.2 Survey Design and Implementation Learning Outcomes By the end of this section, you should be able to:",
+        "score": 0.6479,
+        "metadata": {
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "page": 71,
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Which historical election poll gave a wrong forecast because its mailing list came from telephone and car owners?",
+    "expected_answer": "The 1936 Literary Digest poll.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 72,
+        "evidence_quote": "One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0072-par-002",
+        "text": "As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012). This discrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended questions, which may not have accurately captured the opinions of all voters.",
+        "score": 0.6603,
+        "metadata": {
+          "source": "Book2.pdf",
+          "page": 72,
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data",
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0072-par-001",
+        "text": "Avoiding Bias in Survey Questions Unbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results. One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters.",
+        "score": 0.5938,
+        "metadata": {
+          "source": "Book2.pdf",
+          "page": 72,
+          "title": "Principles of Data Science (OpenStax)",
+          "document_id": "openstax-data-science",
+          "section": "chapter_2_collecting_preparing_data"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0094-par-006",
+        "text": "The company's data analyst realized that the data standardization and validation processes were not adequately performed before the survey results were recorded. To correct this issue, the data analyst first identified and removed all duplicate entries, reducing the total number of responses to 900. Then, they used automated scripts to identify and fill in missing values, which accounted for 95 responses. The remaining 805 responses were then checked for data accuracy using statistical analysis.",
+        "score": 0.4833,
+        "metadata": {
+          "section": "chapter_2_collecting_preparing_data",
+          "document_id": "openstax-data-science",
+          "page": 94,
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What is the name of the sampling technique that splits the population into subgroups and then randomly picks participants from each subgroup?",
+    "expected_answer": "Stratified sampling.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 76,
+        "evidence_quote": "The sampling technique used by Mark is called stratified sampling. This involves dividing the population into subgroups or strata"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0076-par-002",
+        "text": "This involves dividing the population into subgroups or strata based on certain characteristics and then randomly selecting participants from each subgroup. This ensures that each subgroup is represented in the sample, providing a more accurate representation of the entire population. This type of sampling is often used in market research studies to get a more comprehensive understanding of consumer behavior and preferences.",
+        "score": 0.8568,
+        "metadata": {
+          "source": "Book2.pdf",
+          "section": "chapter_2_collecting_preparing_data",
+          "page": 76,
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0073-par-007",
+        "text": "Systematic sampling is based on starting at a random location in the dataset and then selecting every nth member from a population to be contained in the sample. This process is straightforward to implement, and it provides a representative sample when the population is randomly distributed. However, if there is a pattern in the sampling frame (the organizing structure that represents the population from which a sample is drawn), it may lead to a biased sample.",
+        "score": 0.7673,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "page": 73,
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data",
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0072-par-008",
+        "text": "The main step in simple random selection is to define the population of interest and assign a unique identification number to each member. This could be done using a random number generator, a computer program designed to generate a sequence of random numbers, or a random number table, which lists numbers in a random sequence. The primary benefit of this technique is its ability to minimize bias and deliver a fair representation of the population.",
+        "score": 0.7326,
+        "metadata": {
+          "source": "Book2.pdf",
+          "page": 72,
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What is web scraping?",
+    "expected_answer": "Pulling information and data from websites using a web data extraction tool (a web scraper).",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 76,
+        "evidence_quote": "Web scraping involves pulling information and data from websites using a web data extraction tool"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0077-par-001",
+        "text": "It may require a combination of different techniques to effectively scrape data from a website.) Web Scraping Technique Details Web Crawling • Follows links on a web page to navigate to other pages and collect data from them • Useful for scraping data from multiple pages of a website XPath • Powerful query language • Navigates through the elements in an HTML document • Often used in combination with HTML parsing to select specific elements to scrape Regular Expressions • Search for and extract s",
+        "score": 0.7119,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "page": 77,
+          "source": "Book2.pdf",
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0076-par-005",
+        "text": "Web scraping can be used to automatically gather this data from the various websites and create a comprehensive list for the company to use in its business strategy without the need for manual work. Social media data collection involves gathering information from various platforms like Twitter and Instagram using application programming interface or monitoring tools.",
+        "score": 0.6983,
+        "metadata": {
+          "source": "Book2.pdf",
+          "section": "chapter_2_collecting_preparing_data",
+          "title": "Principles of Data Science (OpenStax)",
+          "document_id": "openstax-data-science",
+          "page": 76
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0077-par-000",
+        "text": "common techniques used. (Note: The techniques used for web scraping will vary depending on the website and the type of data being collected.",
+        "score": 0.6918,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "page": 77,
+          "document_id": "openstax-data-science",
+          "section": "chapter_2_collecting_preparing_data",
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What does data integration mean in data cleaning and preprocessing?",
+    "expected_answer": "Merging data from multiple sources into a single dataset.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 86,
+        "evidence_quote": "Data integration refers to merging data from multiple sources into a single dataset"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0086-par-001",
+        "text": "It refers to the technique of organizing and converting raw data into usable structures for further analysis. It involves extracting irrelevant or duplicate data, handling missing values, and correcting errors or inconsistencies. This ensures that the data is accurate, comprehensive, and ready for analysis. Data cleaning and preprocessing typically involve the following steps: 1. Data integration. Data integration refers to merging data from multiple sources into a single dataset. 2.",
+        "score": 0.7711,
+        "metadata": {
+          "page": 86,
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "section": "chapter_2_collecting_preparing_data",
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0087-par-010",
+        "text": "2.4 • Data Cleaning and Preprocessing 77",
+        "score": 0.7357,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "page": 87,
+          "document_id": "openstax-data-science",
+          "section": "chapter_2_collecting_preparing_data"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0067-par-004",
+        "text": "Preparing, or “wrangling,” the collected data adequately prior to analysis is equally important. Preparation involves scrubbing, organizing, and transforming the data into a format suitable for analysis. Data preparation plays a pivotal role in detecting and resolving any inconsistencies or errors present in the data, thereby enabling accurate analysis. The rapidly advancing technology and widespread use of the internet have added complexity to the data collection and preparation processes.",
+        "score": 0.6982,
+        "metadata": {
+          "section": "chapter_2_collecting_preparing_data",
+          "title": "Principles of Data Science (OpenStax)",
+          "document_id": "openstax-data-science",
+          "page": 67,
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Which type of missing data is not related to any other variables and has no underlying cause for its absence?",
+    "expected_answer": "MCAR (missing completely at random).",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 87,
+        "evidence_quote": "MCAR (missing completely at random) data is missing data not related to any other variables"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0086-par-006",
+        "text": "Some specific examples of missing data include the following: 1. A survey participant forgetting to answer a question 2. A malfunction in data collection equipment resulting in missing values 3. A participant choosing not to answer a question due to sensitivity or discomfort An outlier is a data point that differs significantly from other data points in a given dataset. This can be due to human error, measurement error, or a true outlier value in the data.",
+        "score": 0.7011,
+        "metadata": {
+          "page": 86,
+          "document_id": "openstax-data-science",
+          "source": "Book2.pdf",
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0087-par-003",
+        "text": "MAR (missing at random) data is missing data related to other variables but not to any unknown or unmeasured variables. As an example, during data collection, a survey is sent to respondents and the survey asks about loneliness. One of the questions asks about memory retention. Some older respondents might skip this question since they may be unwilling to share this type of information. The likelihood of missing data for loneliness factors is related to age (older respondents).",
+        "score": 0.6026,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "section": "chapter_2_collecting_preparing_data",
+          "page": 87
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0087-par-002",
+        "text": "MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence. Consider data collection with a survey asking about driving habits. One of the demographic questions asks for income level. Some respondents accidentally skip this question, and so there is missing data for income, but this is not related to the variables being collected related to driving habits.",
+        "score": 0.5869,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "section": "chapter_2_collecting_preparing_data",
+          "page": 87,
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": true
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How can outliers be identified?",
+    "expected_answer": "Through visualization techniques such as scatterplots, box plots, IQR or histograms, or through statistical methods.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 87,
+        "evidence_quote": "This can be done through visualization techniques, such as scatterplots, box plots, IQR (interquartile range), or histograms"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0403-par-006",
+        "text": "Outlier detection concerns the identification of observations that are significantly different from the rest of the data and ensures that the data is free from outliers that can affect the results of the models and analysis. If outliers are detected, they may either be removed or imputed to have more reasonable values.",
+        "score": 0.7464,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "section": "chapter_8_ethics",
+          "page": 403
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0400-par-000",
+        "text": "1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data. 2. Unrepresentative samples. If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group. 3. Imbalance of classes.",
+        "score": 0.708,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "page": 400,
+          "section": "chapter_8_ethics",
+          "document_id": "openstax-data-science",
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0087-par-008",
+        "text": "Another option is to deal with the outliers as an individual group and analyze them separately from the rest of the data. 5. Use robust statistical methods. When dealing with outliers, it is important to use statistical methods that are not affected by extreme values. This includes using median instead of mean and using nonparametric tests instead of parametric tests, as explained in Statistical Inference and Confidence Intervals. 6. Validate the results.",
+        "score": 0.7019,
+        "metadata": {
+          "page": 87,
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "section": "chapter_2_collecting_preparing_data"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Which kind of database is built for unstructured data like social media content or sensor data?",
+    "expected_answer": "NoSQL databases.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 99,
+        "evidence_quote": "NoSQL databases. These databases are designed to handle unstructured data, such as social media content or data from sensors"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0099-par-003",
+        "text": "These databases are designed to handle unstructured data, such as social media content or data from sensors, and use non-relational data models. 3. Data warehouses. A data warehouse is a centralized repository of data that combines data from multiple sources and allows for complex queries and analysis. It is commonly used for business intelligence and reporting intentions. 4. Cloud storage. Cloud storage involves storing data in remote servers accessed over the internet.",
+        "score": 0.7537,
+        "metadata": {
+          "page": 99,
+          "source": "Book2.pdf",
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data",
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0077-par-005",
+        "text": "APIs provided by social media platforms allow data scientists to collect structured data on user interactions and content. Social listening involves monitoring online conversations for insights on customer behavior and trends. Surveys conducted on social media can provide information on customer preferences and opinions. Network analysis, or the examination of relationships and connections between users, data, or entities within a network, can reveal influential users and communities.",
+        "score": 0.6272,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data",
+          "source": "Book2.pdf",
+          "page": 77
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0083-par-006",
+        "text": "Data processing manages the raw data first by cleaning it through the removal of irrelevant information and then by transforming it into a structured format. The PYTHON CODE 2.3 • Web Scraping and Social Media Data Collection 73",
+        "score": 0.5958,
+        "metadata": {
+          "section": "chapter_2_collecting_preparing_data",
+          "document_id": "openstax-data-science",
+          "page": 83,
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What is pseudonymization?",
+    "expected_answer": "Replacing sensitive information in a dataset with artificial identifiers or codes while keeping it useful for analysis.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 390,
+        "evidence_quote": "Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0390-par-002",
+        "text": "Anonymization is the act of removing personal identifying information from datasets and other forms of data to make sensitive information usable for analysis without the risk of exposing personal information. This can involve techniques such as removing or encrypting identifying information. Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis.",
+        "score": 0.6384,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "page": 390,
+          "section": "chapter_8_ethics",
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0402-par-000",
+        "text": "which the last name and student ID are combined into a codeword, which may be used to access that student’s grade information from the server. This is an example of pseudonymization, as the PII is encoded rather than removed from the dataset. Robust data anonymization should follow a policy of k-anonymization, which is the principle of ensuring that each record within a dataset is indistinguishable from at least other records with respect to a specified set of identifying attributes or features.",
+        "score": 0.6376,
+        "metadata": {
+          "section": "chapter_8_ethics",
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "page": 402,
+          "title": "Principles of Data Science (OpenStax)"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0401-par-008",
+        "text": "Features such as names or Social Security numbers can be exchanged with artificial values. If needed, these values can be replaced later using a secure lookup table or decryption algorithm. A common method of pseudonymization is called hashing, which is the process of transforming data into a fixed-length value or string (called a hash), typically using an algorithm called a hash function.",
+        "score": 0.611,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "section": "chapter_8_ethics",
+          "page": 401
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What are cookies?",
+    "expected_answer": "Small data files deposited on users' hard disks from websites they visit.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 392,
+        "evidence_quote": "Cookies are small data files that are deposited on users’ hard disks from websites they visit"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0392-par-001",
+        "text": "COOKIES After you have searched for a product on the internet, do you notice that you suddenly start receiving advertisements for that product or that a store website now displays that product on its front page? You can thank cookies for that. Cookies are small data files that are deposited on users’ hard disks from websites they visit.",
+        "score": 0.5862,
+        "metadata": {
+          "source": "Book2.pdf",
+          "page": 392,
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_8_ethics",
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0392-par-002",
+        "text": "They keep track of your browsing and search history, collecting information about your potential interests to tailor advertisements and product placement on websites. Cookies can be either blocked or accepted depending on a company’s privacy policy. The potential risk of cookies is that they can store information about the user, user preferences, and user browsing habits.",
+        "score": 0.5764,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "page": 392,
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "section": "chapter_8_ethics"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0392-par-003",
+        "text": "That said, they can also save time by storing users’ log-in information and browsing preferences, allowing internet pages to load faster than if you had loaded them the first time. Regardless of convenience, it is a good idea to clear cookies from time to time and to restrict cookies on certain sites depending on your own preferences. Does the use of cookies by online websites violate any of the principles of informed consent?",
+        "score": 0.4915,
+        "metadata": {
+          "page": 392,
+          "section": "chapter_8_ethics",
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How can an outlier affect an algorithm?",
+    "expected_answer": "It might cause the algorithm to drastically change its outcomes because it is abnormal compared to the rest of the data.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 400,
+        "evidence_quote": "An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0400-par-000",
+        "text": "1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data. 2. Unrepresentative samples. If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group. 3. Imbalance of classes.",
+        "score": 0.9133,
+        "metadata": {
+          "page": 400,
+          "section": "chapter_8_ethics",
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0403-par-006",
+        "text": "Outlier detection concerns the identification of observations that are significantly different from the rest of the data and ensures that the data is free from outliers that can affect the results of the models and analysis. If outliers are detected, they may either be removed or imputed to have more reasonable values.",
+        "score": 0.744,
+        "metadata": {
+          "section": "chapter_8_ethics",
+          "page": 403,
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0407-par-003",
+        "text": "Ultimately, both approaches have their merits and limitations. d. The second data scientist chooses to remove the outliers from the data and only includes the data points that fall within a certain range. This results in a cleaner and more consistent trend in the graph, as the outliers are not shown to skew the data. However, removing the outliers may cause important information about the sales performance to not be accurately represented. Solution The correct answer is B.",
+        "score": 0.7061,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_8_ethics",
+          "page": 407,
+          "document_id": "openstax-data-science",
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "What goes wrong when the data used to train an algorithm does not include enough examples of a particular group?",
+    "expected_answer": "The algorithm will not be qualified to properly serve that group.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 400,
+        "evidence_quote": "If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0400-par-001",
+        "text": "If the data factors are weighted disproportionately to one class group, then the algorithm may be biased toward that particular group. 4. Limited features. If there are not enough features to represent the data accurately or completely, the algorithm will likely have an incomplete understanding of the data, leading to inaccurate outcomes or biased decisions. 5. Overfitting.",
+        "score": 0.7493,
+        "metadata": {
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "page": 400,
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_8_ethics"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0400-par-000",
+        "text": "1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data. 2. Unrepresentative samples. If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group. 3. Imbalance of classes.",
+        "score": 0.699,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "page": 400,
+          "source": "Book2.pdf",
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_8_ethics"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0400-par-002",
+        "text": "Overfitted models are trained on specific data models that cause them to be unable to generalize the data that they have not seen before, causing bias. 6. Data quality. Poorly formatted data, inaccurately labeled data, or misplaced data can cause an algorithm to base its decisions on irrelevant or invalid information, resulting in a bias. Factors That Generally Lead to Fairness The factors that yield fairness throughout a data science project process include the following: 1.",
+        "score": 0.6626,
+        "metadata": {
+          "section": "chapter_8_ethics",
+          "source": "Book2.pdf",
+          "title": "Principles of Data Science (OpenStax)",
+          "document_id": "openstax-data-science",
+          "page": 400
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "When reporting findings, what should a data scientist do with third-party data sources?",
+    "expected_answer": "Acknowledge all third-party data sources appropriately.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 405,
+        "evidence_quote": "Acknowledge all third-party data sources appropriately"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0405-par-007",
+        "text": "Before visualizing or reporting on data, a data scientist must have a thorough understanding of the data, including its sources, limitations, and potential biases. 2. Choosing appropriate visualizations. Data can be presented in a variety of ways, such as graphs, charts, tables, or maps. A data scientist must select the most suitable visualization method that accurately represents the data and effectively communicates the findings. 3. Avoiding bias and manipulation.",
+        "score": 0.6635,
+        "metadata": {
+          "section": "chapter_8_ethics",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "page": 405
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0411-par-001",
+        "text": "It is the data scientist's responsibility to uphold these principles and present data in a manner that is both transparent and ethical. Data source attribution is demanded for several reasons: 1. Accuracy and credibility. Attribution ensures that the data utilized in the visualizations and reporting is accurate and reliable. By clearly stating the sources, any potential errors or biases in the data can be identified and corrected, increasing the credibility of the information presented. 2.",
+        "score": 0.6572,
+        "metadata": {
+          "source": "Book2.pdf",
+          "section": "chapter_8_ethics",
+          "title": "Principles of Data Science (OpenStax)",
+          "document_id": "openstax-data-science",
+          "page": 411
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0405-par-008",
+        "text": "Data scientists must avoid manipulating or cherry-picking data to support a specific narrative or agenda. This can lead to biased results and misinterpretations, which can have serious consequences. 4. Fact-checking and verifying data. Data scientists must ensure the accuracy and validity of the data they are working with. This involves cross-checking data from multiple sources and verifying its authenticity. 8.3 • Ethics in Visualization and Reporting 395",
+        "score": 0.6475,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "page": 405,
+          "section": "chapter_8_ethics",
+          "source": "Book2.pdf",
+          "title": "Principles of Data Science (OpenStax)"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Which sampling method is typically used when a population is difficult to access?",
+    "expected_answer": "Snowball sampling.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 74,
+        "evidence_quote": "Snowball sampling is typically used in situations where it is difficult to access a particular population"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0074-par-005",
+        "text": "Quota sampling is generally used in market research and opinion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of individuals. However, it is important to note that the results of quota sampling may not accurately represent the entire population, as the sample is not randomly selected and may be biased toward certain characteristics. Therefore, the findings from studies using quota sampling should be interpreted with caution. 9. Volunteer sampling.",
+        "score": 0.7288,
+        "metadata": {
+          "section": "chapter_2_collecting_preparing_data",
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "page": 74
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0073-par-005",
+        "text": "Convenience sampling is effortless to achieve, and it is useful for exploratory studies. However, it may not provide a representative sample as it is prone to selection bias in that individuals who are more readily available or willing to participate may be overrepresented. An example of convenience sampling would be conducting a survey about a new grocery store in a busy shopping mall.",
+        "score": 0.7246,
+        "metadata": {
+          "source": "Book2.pdf",
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data",
+          "page": 73,
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0074-par-003",
+        "text": "it relies on the assumption that people with similar characteristics or experiences tend to associate with each other and can provide valuable referrals. This type of sampling can be useful in studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of findings. 8. Quota sampling.",
+        "score": 0.7186,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_2_collecting_preparing_data",
+          "document_id": "openstax-data-science",
+          "source": "Book2.pdf",
+          "page": 74
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What are the main causes of noisy data?",
+    "expected_answer": "Human errors in data entry, technical errors in data collection or transmission, or natural variability in the data itself.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 93,
+        "evidence_quote": "Most noisy data is caused by human errors in data entry, technical errors in data collection or transmission, or natural variability in the data itself"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0093-par-000",
+        "text": "accurate conclusions and making predictions from the data. Most noisy data is caused by human errors in data entry, technical errors in data collection or transmission, or natural variability in the data itself. Noisy data is removed and cleaned by identifying and correcting errors, removing outliers, and filtering out irrelevant information. Noisy data can negatively impact data analysis and modeling, and it may indicate that there are issues with the model's structure or assumptions.",
+        "score": 0.8514,
+        "metadata": {
+          "section": "chapter_2_collecting_preparing_data",
+          "source": "Book2.pdf",
+          "page": 93,
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0092-par-007",
+        "text": "Dealing with Noisy Data Noisy data refers to data that retains errors, outliers, or irrelevant information that can conceal true patterns and relationships within the dataset. The presence of noisy data in the dataset causes difficulty in drawing 82 2 • Collecting and Preparing Data Access for free at openstax.org",
+        "score": 0.8211,
+        "metadata": {
+          "page": 92,
+          "document_id": "openstax-data-science",
+          "section": "chapter_2_collecting_preparing_data",
+          "source": "Book2.pdf",
+          "title": "Principles of Data Science (OpenStax)"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0093-par-001",
+        "text": "Noisy data is unwanted information that can be removed. Strategies to reduce the noisy data are summarized in Table 2.7. Strategy Example Data cleaning Removing duplicate or irrelevant data from a dataset, such as deleting repeated rows in a spreadsheet or filtering out incomplete or error-prone data entries. Data smoothing A technique used in data analysis to remove outliers or noise from a dataset in order to reveal underlying patterns or trends.",
+        "score": 0.7257,
+        "metadata": {
+          "section": "chapter_2_collecting_preparing_data",
+          "page": 93,
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)"
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "For how long does copyright protect original creative works in the United States?",
+    "expected_answer": "For the life of the creator plus 70 years.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 394,
+        "evidence_quote": "copyright protects original creative works for the life of the creator plus 70 years"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0394-par-001",
+        "text": "Intellectual Property Another form of data protection that typically does not require encryption is that of legal protection of intellectual property. Intellectual property, broadly defined as original artistic works, trademarks and trade secrets, patents, and other creative output, is often protected from copying, modification, and unauthorized use by specific laws. For example, in the United States, copyright protects original creative works for the life of the creator plus 70 years.",
+        "score": 0.6582,
+        "metadata": {
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "page": 394,
+          "section": "chapter_8_ethics"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0394-par-002",
+        "text": "Any protected data under intellectual property rights can be accessed legitimately, if proper permission from the holder of the copyright is obtained and proper attribution given. More about copyright and attribution of data will be discussed in Ethics in Visualization and Reporting. Some kinds of data are publicly available. Even when this is the case, data scientists need to be aware of the nature of the data to ensure it is used appropriately.",
+        "score": 0.5491,
+        "metadata": {
+          "section": "chapter_8_ethics",
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "page": 394
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0411-par-003",
+        "text": "This safeguard enforces data integrity and holds developers accountable for the claims and conclusions put forth. 4. Privacy considerations. In some circumstances, the data employed in visualizations may retain sensitive or personal information. Attributing the source of the data can help protect individuals' privacy and avoid potential harm or misuse of their information.",
+        "score": 0.4545,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "document_id": "openstax-data-science",
+          "source": "Book2.pdf",
+          "section": "chapter_8_ethics",
+          "page": 411
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "After a data breach, for which kinds of breaches is notifying the authorities especially important?",
+    "expected_answer": "Breaches involving personally identifiable information (PII) or sensitive data.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 396,
+        "evidence_quote": "This is especially important for breaches involving personally identifiable information (PII) or sensitive data"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0396-par-002",
+        "text": "Once identified, the breach must be contained to prevent further exposure of sensitive data. 2. Assess the damage: Once the breach is contained, the team must assess the extent of the damage caused. This may involve determining the type and amount of data that was compromised as well as any potential impact on affected individuals. 3. Notify authorities: Depending on the nature of the breach, it may be necessary to notify authorities such as law enforcement or regulatory agencies.",
+        "score": 0.7723,
+        "metadata": {
+          "section": "chapter_8_ethics",
+          "title": "Principles of Data Science (OpenStax)",
+          "document_id": "openstax-data-science",
+          "page": 396,
+          "source": "Book2.pdf"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0396-par-003",
+        "text": "This is especially important for breaches involving personally identifiable information (PII) or sensitive data. 4. Notify affected individuals: The team must also inform any individuals whose data was compromised in the breach. This notification should include details of the breach, the type of data exposed, and any steps the individual can take to protect themselves. 5. Secure affected accounts: If the breach involves compromised user accounts, those accounts must be secured immediately.",
+        "score": 0.7303,
+        "metadata": {
+          "page": 396,
+          "title": "Principles of Data Science (OpenStax)",
+          "section": "chapter_8_ethics",
+          "source": "Book2.pdf",
+          "document_id": "openstax-data-science"
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0393-par-003",
+        "text": "Data breaches can have far-reaching consequences, from financial losses to diminished public trust in organizations. As an example, consider the 2017 Equifax data breach. Equifax, one of the three major credit reporting agencies in the United States, experienced a massive data breach in 2017 (https://openstax.org/r/ oversight1). This breach exposed the personal information of over 145 million Americans (near half the total U.S.",
+        "score": 0.6651,
+        "metadata": {
+          "section": "chapter_8_ethics",
+          "document_id": "openstax-data-science",
+          "source": "Book2.pdf",
+          "title": "Principles of Data Science (OpenStax)",
+          "page": 393
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "What is data validation?",
+    "expected_answer": "The process of checking, verifying, and validating the accuracy and reliability of data before it is used in decision-making.",
+    "gold": [
+      {
+        "gold_source_id": "openstax-data-science",
+        "gold_page": 403,
+        "evidence_quote": "is the process of checking, verifying, and validating the accuracy and reliability of data before it is used in decision-making"
+      }
+    ],
+    "applied_filter": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "openstax-data-science-p0403-par-003",
+        "text": "Data Validation Data validation (as introduced in Collecting and Preparing Data) is the process of checking, verifying, and validating the accuracy and reliability of data before it is used in decision-making. When both data validation and ethical rules are applied, the models and analyses that use the data are more reliable and effective. Data validation provides a set of checks and controls that help ensure that data meets certain standards for accuracy and reliability.",
+        "score": 0.8954,
+        "metadata": {
+          "source": "Book2.pdf",
+          "section": "chapter_8_ethics",
+          "document_id": "openstax-data-science",
+          "title": "Principles of Data Science (OpenStax)",
+          "page": 403
+        },
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "openstax-data-science-p0094-par-005",
+        "text": "Data validation is a continuous process, and data should be monitored and updated to ensure its accuracy and validity. Consider a marketing company conducting a survey on customer satisfaction for a new product launch. The company collected data from 1,000 respondents, but when the company started analyzing the data, it noticed several inconsistencies and missing values.",
+        "score": 0.8264,
+        "metadata": {
+          "title": "Principles of Data Science (OpenStax)",
+          "source": "Book2.pdf",
+          "page": 94,
+          "document_id": "openstax-data-science",
+          "section": "chapter_2_collecting_preparing_data"
+        },
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "openstax-data-science-p0094-par-000",
+        "text": "through a variety of techniques, including manual checks, automated scripts, and statistical analysis. Some common inspections in data validation include checking for duplicates, checking for mislaid values, and verifying data against external sources or references. Before collecting data, it is important to determine the conditions or criteria that the data needs to meet to be considered valid. This can include factors such as precision, completeness, consistency, and timeliness.",
+        "score": 0.7363,
+        "metadata": {
+          "section": "chapter_2_collecting_preparing_data",
+          "title": "Principles of Data Science (OpenStax)",
+          "document_id": "openstax-data-science",
+          "source": "Book2.pdf",
+          "page": 94
+        },
+        "is_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "top3_obeys_filter": null
+  }
+]

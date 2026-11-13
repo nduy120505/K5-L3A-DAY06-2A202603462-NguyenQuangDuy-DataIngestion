@@ -1,0 +1,44 @@
+{
+  "A": {
+    "dev": {
+      "n_questions": 15,
+      "hit_at_1": "5/15",
+      "evidence_hit_at_3": "10/15",
+      "filter_obeyed": "N/A"
+    },
+    "test": {
+      "n_questions": 5,
+      "hit_at_1": "2/5",
+      "evidence_hit_at_3": "3/5",
+      "filter_obeyed": "N/A"
+    }
+  },
+  "B": {
+    "dev": {
+      "n_questions": 15,
+      "hit_at_1": "5/15",
+      "evidence_hit_at_3": "9/15",
+      "filter_obeyed": "N/A"
+    },
+    "test": {
+      "n_questions": 5,
+      "hit_at_1": "3/5",
+      "evidence_hit_at_3": "4/5",
+      "filter_obeyed": "N/A"
+    }
+  },
+  "C": {
+    "dev": {
+      "n_questions": 15,
+      "hit_at_1": "5/15",
+      "evidence_hit_at_3": "9/15",
+      "filter_obeyed": "3/3"
+    },
+    "test": {
+      "n_questions": 5,
+      "hit_at_1": "3/5",
+      "evidence_hit_at_3": "4/5",
+      "filter_obeyed": "1/1"
+    }
+  }
+}
